@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- TITLE (lebih kuat & jelas) -->
+  <title>Timika : Cerita di Balik Perubahan</title>
+
+  <!-- META (biar keliatan profesional) -->
+  <meta name="description" content="Eksplorasi digital tentang Timika: sejarah, budaya, dan perubahan yang jarang terlihat." />
+
+  <!-- FONT -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- AUDIO -->
+<audio id="bgSound" loop>
+  <source src="assets/audio/pacesantana.mamasio.MP3" type="audio/mpeg">
+</audio>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="overlay"></div>
+
+  <div class="hero-content">
+    <h1 class="title">Timika</h1>
+
+    <p class="subtitle">
+      Cerita di Balik Perubahan
+    </p>
+
+    <p class="hero-desc">
+      Sebuah eksplorasi tentang hubungan antara alam, manusia, dan modernisasi di Papua.
+    </p>
+
+    <button onclick="scrollToSection()">Mulai Jelajah ↓</button>
+  </div>
+</section>
+
+<!-- SEJARAH -->
+<section class="section" id="sejarah">
+  <div class="container">
+    <h2>Sejarah</h2>
+
+    <div class="timeline">
+      <div class="item">
+        Sebelum industri hadir, tanah ini telah menjadi rumah bagi masyarakat yang hidup selaras dengan alam.
+      </div>
+      <div class="item">
+        Gunung, sungai, dan hutan bukan sekadar tempat, tapi bagian dari identitas.
+      </div>
+      <div class="item">
+        Ketika industri masuk, Timika berkembang menjadi pusat ekonomi yang signifikan.
+      </div>
+      <div class="item">
+        Namun, di balik pertumbuhan itu, terdapat cerita yang tidak selalu terdengar.
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BUDAYA -->
+<section class="section">
+  <div class="container">
+    <h2>Budaya</h2>
+
+    <div class="cards">
+      <div class="card">
+        <h3>Suku Amungme</h3>
+        <p>Menganggap gunung sebagai ibu yang memberi kehidupan.</p>
+      </div>
+
+      <div class="card">
+        <h3>Suku Kamoro</h3>
+        <p>Hidup berdampingan dengan sungai dan rawa, menjaga keseimbangan alam.</p>
+      </div>
+
+      <div class="card">
+        <h3>Warisan Budaya</h3>
+        <p>Seni ukir, ritual, dan cerita yang diwariskan dari generasi ke generasi.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- KONTRAS -->
+<section class="section dark">
+  <div class="container">
+    <h2>Kontras</h2>
+
+    <p>
+      Di satu sisi, Timika menyimpan kekayaan alam dan budaya yang luar biasa.
+      Di sisi lain, modernisasi menghadirkan perubahan besar yang tidak selalu mudah.
+    </p>
+  </div>
+</section>
+
+<!-- FAKTA -->
+<section class="section darker">
+  <div class="container">
+    <h2>Perspektif</h2>
+
+    <div class="hidden" onclick="reveal(this)">
+      Klik untuk melihat lebih dalam...
+    </div>
+
+    <!-- small note (detail kecil tapi impactful) -->
+    <p class="note">
+      *Klik berulang untuk memahami lebih jauh
+    </p>
+  </div>
+</section>
+
+<!-- REFLEKSI -->
+<section class="section">
+  <div class="container narrow">
+    <h2>Refleksi</h2>
+
+    <blockquote>
+      “Di tanah ini, setiap langkah menyimpan cerita.
+      Tentang alam yang memberi, manusia yang bertahan,
+      dan perubahan yang tak bisa dihindari.”
+    </blockquote>
+  </div>
+</section>
+
+<!-- PENUTUP -->
+<section class="section dark">
+  <div class="container narrow">
+    <h2>Penutup</h2>
+
+    <p>
+      Timika bukan hanya tentang apa yang terlihat hari ini.
+      Ini adalah perjalanan panjang antara alam, manusia, dan perubahan.
+    </p>
+
+    <p>
+      Mungkin kita tidak bisa melihat semuanya,
+      tapi kita bisa memilih untuk memahami lebih dalam.
+    </p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <p>
+    Timika : Cerita di Balik Perubahan - Digital Storytelling
+  </p>
+  <p class="credit">
+    Dibuat oleh Agus Satria Adhitama
+  </p>
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
