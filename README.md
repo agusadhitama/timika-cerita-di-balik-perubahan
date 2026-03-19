@@ -86,7 +86,6 @@ Project ini menunjukkan bahwa frontend development tidak hanya tentang tampilan,
 ## 👤 Author
 
 **Agus Satria Adhitama**
-Frontend Developer Enthusiast
 
 ---
 
